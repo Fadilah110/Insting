@@ -1,0 +1,44 @@
+html
+{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+ font-family: 'poppins', sans-serif;
+}
+
+body{
+ height: 100vh;  
+ width: 70%;
+ background-image: url(123.jpg);
+ background-size: cover;
+ background-position: absolute;
+}
+h1{
+    position: relative;
+    color: #fff;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: 35px;
+}
+
+.about img {
+bottom: 17%;
+margin-left: 15%;
+}
+.main {
+    width: 100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about{
+    color: #fff;
+    letter-spacing: 0,5px;
+    line-height: 25px;
+    font-size: 17px;
+    margin-left: 2%;
+    position:absolute;
+}
